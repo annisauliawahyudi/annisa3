@@ -1,0 +1,271 @@
+body {
+    background-color: #d1d3d5;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: #3a3a3a;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 16px 32px;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+.logo {
+    float: left;
+ }
+
+li a {
+    display: block;
+    color: #3a3a3a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.logo-text{
+    font-style: italic;
+}
+
+li a:hover:not(.active) {
+    color: #1b577a;
+}
+
+.active {
+    color: #004258;
+}
+
+
+@media screen and (max-width: 600px) {
+    ul li {float: none;}
+    .logo {float: none;}
+}
+
+img { 
+    width:250px;
+    height: 250px;
+    padding: 50px;
+}
+
+.logoWik {
+    width:250px;
+    height: 250px;
+    padding: 50px;
+    border-radius: 200px;
+}
+
+.content1 {
+    background-image: url(img/sekolah\ wikrama.jpg);
+    display: grid;
+    grid-template-columns: 66% auto;
+    padding: 0 48px 48px 48px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 300px;
+}
+
+.text1 {
+    margin: 0 64px;
+    font-size: 18px;
+    display: flex;
+    align-items: center; 
+}
+
+h1 {
+    margin-top: 0;
+}
+
+#tag {
+    margin-top: 0;
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+}
+
+mark {
+    background: #004258;
+    color: white;
+    padding: 5px 5px;
+}
+
+.txt {
+    color: rgb(255, 255, 255);
+}
+
+.txt1 {
+    color: #ffffff;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+    background-color:#d1d3d5;
+    padding: 0 12%;
+}
+
+.card {
+    background-color: #f7f8f9;
+    transition: 0.3s;
+    width: 300px;
+    min-height: 350px;
+    padding: 32px;
+    margin: 81px 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+h2 b {
+    background: #004258;
+    color: white;
+    padding: 5px 5px;
+}
+
+.title {
+    text-align: center;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.second-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.third-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.atas {
+    text-align: center;
+    background: #004258;
+    color: white;
+    padding: 5px 5px;
+}
+
+.foto {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.name {
+    text-align: center;
+    
+}
+
+.contentkantin1 {
+    background-image: url(img/kantindulu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 256px;
+}
+
+.tulis1 {
+    background: rgb(81, 67, 67);
+    padding: 5px 5px;
+    color: white;
+    text-align: center; 
+    font-size: 18px;
+    font-style: italic;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.mkn {
+    width:250px;
+    height: 250px;
+    padding: 50px;
+    border-radius: 200px;
+}
+
+.perpes {
+    background-color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.fotop {
+    border-radius: 180px;
+}
+
+.contentp1 {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+}
+
+h3 a:hover:not(.active) {
+    color: #c5dde5;
+    text-decoration: none;
+}
+
+h3 a {
+    text-decoration: none;
+    color: #004258;
+}
+
+.pirink {
+    text-align: center;
+}
+
+.ftt {
+ 
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+}
+
+.ttt {
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+
+}
+
+.ttt a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-items: center;
+    background-color:#004258;
+    padding: 24px 40px;
+    color: white;
+}
+
+
+
+
+
+
+
+  
